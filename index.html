@@ -13,38 +13,41 @@
     </header>
     <div class="contentWrap">
         <section class="input_section">
-            <p>"연습은 어제의 당신보다 당신을 더 낫게 만든다."</p>
-            <p>
-            <strong>1만 시간의 법칙</strong>은 
+            <p class="betterThan_text">"연습은 어제의 당신보다 당신을 더 낫게 만든다."</p>
+            <p class="justice_text">
+            <strong>1만 시간의 법칙</strong>은<br>
             어떤 분야의 전문가가 되기 위해서는<br>
             최소한 1만 시간의 훈련이 필요하다는 법칙이다.<br>
             </p>
-            <h3>
+            <form class="input_text" id="input_text">
                 <span>나는</span>
-                <input type="text" placeholder="예)프로그래밍">
-                <span>전문가가 될 것이다.</span>
+                <label for="dream"></label>
+                <input type="text" id="dream" name="dream" autocomplete="off" placeholder="예)프로그래밍">
+                <span>전문가가 될 것이다.</span><br>
                 <span>그래서 앞으로 매일 하루에</span>
-                <input type="text" placeholder="예)5">
+                <label for="hour"></label>
+                <input type="text" id="hour" name="hour" autocomplete="off" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" maxlength='2' placeholder="예)5">
                 <span>시간씩 훈련할 것이다.</span>
-            </h3>
-            <button>나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
+            <button type="submit" class="btn">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button><br>
+            </form>
         </section>
         <section class="output_section">
-            <h3>
+            <h3 class="output_text">
                 <span>당신은</span>
-                <strong></strong>
-                <span>전문가가 되기 위해서</span>
+                <strong id="output_dream"></strong>
+                <span>전문가가 되기 위해서</span><br>
                 <span>대략</span>
-                <strong></strong>
+                <strong id="output_hour"></strong>
                 <span>일 이상 훈련하셔야 합니다! :)</span>
             </h3>
-            <button type="">훈련하러 가기 GO!GO!</button><a href=""></a>
+            <button type="button" class="btn">훈련하러 가기 GO!GO!</button><a href="" class="btn white">공유하기</a>
         </section>
     </div>
     <footer>
-        <img src="위니브로고" alt>
-        <p>※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.<br>
+        <img src="img/logo.png" alt>
+        <p class="caution_text">※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.<br>
             수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.</p>
     </footer>
+    <script src="js/10000hours.js"></script>
 </body>
 </html>

@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+
+body {
+    background-color: #5B2386;
+    color: #FFF;
+    font-family: 'GmarketSansMedium';
+}
+
+h1 > img {
+    width: 564px;
+    height: 112px;
+}
+
+.betterThan_text {
+    color: #F5DF4D;
+    font-family: 'OTEnjoystoriesBA';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.justice_text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+.justice_text > strong {
+    font-family: 'GmarketSansBold';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.input_text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+input {
+    width: 228px;
+    height: 57px;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 7px;
+    text-align: center;
+}
+input::placeholder {
+    color: #BABCBE;
+    font-family: 'GmarketSansMedium';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.btn {
+    background: #FCEE21;
+    padding: 21px 49px;
+    color: #5B2386;
+    font-family: 'GmarketSansBold';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 56px;
+}
+
+.output_text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.btn.white {
+    background-color: #FFF;
+    color: #5B2386;
+    text-decoration: none;
+}
+
+.caution_text {
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    line-height: 17px;
+}
