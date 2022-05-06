@@ -35,9 +35,17 @@ body {
     font-family: 'GmarketSansMedium';
 }
 
+header {
+    text-align: center;
+}
+
 h1 > img {
     width: 564px;
     height: 112px;
+}
+
+.contentWrap {
+    text-align: center;
 }
 
 .betterThan_text {
@@ -98,8 +106,13 @@ input::placeholder {
 .output_text {
     font-weight: 500;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 72px;
 }
+.output_text > strong {
+    font-weight: 700;
+    font-size: 72px;
+}
+
 
 .btn.white {
     background-color: #FFF;
@@ -111,4 +124,8 @@ input::placeholder {
     font-family: 'Noto Sans KR';
     font-size: 12px;
     line-height: 17px;
+}
+
+footer {
+    text-align: center;
 }
