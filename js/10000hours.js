@@ -15,3 +15,15 @@ function submit() {
     }
 }
 submit();
+
+// 모달
+const modal = document.getElementById("modalWrap");
+const btnModal = document.getElementById("showModal");
+btnModal.addEventListener("click", e => {
+    modal.style.display = "inline"
+});
+
+const closeBtn = modal.querySelector(".closeModal");
+closeBtn.addEventListener("click", e => {
+    modal.style.display = "none"
+});
